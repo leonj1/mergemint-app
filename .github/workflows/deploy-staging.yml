@@ -17,7 +17,7 @@ concurrency:
 jobs:
   deploy-staging:
     name: 🚀 Deploy to Staging
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux, x64]
     timeout-minutes: 20
     
     steps:

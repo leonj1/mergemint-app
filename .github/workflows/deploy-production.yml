@@ -11,7 +11,7 @@ concurrency:
 jobs:
   deploy-production:
     name: 🚀 Deploy to Production
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux, x64]
     timeout-minutes: 20
     environment:
       name: production
